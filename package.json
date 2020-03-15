@@ -1,0 +1,28 @@
+{
+  "name": "basho-rest",
+  "version": "1.0.0",
+  "description": "Basho REST service",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacerto/basho-rest.git"
+  },
+  "author": "lacerto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacerto/basho-rest/issues"
+  },
+  "homepage": "https://github.com/lacerto/basho-rest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.1"
+  }
+}

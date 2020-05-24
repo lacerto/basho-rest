@@ -1,10 +1,9 @@
 import * as express from "express";
+import RequestHandler from './handler';
 
 const app: express.Express = express();
 
-app.get("/basho/:bashoId", (req: express.Request, res: express.Response) => {
-    res.json({ basho: req.params.bashoId });
-});
+app.get("/nextbasho", RequestHandler);
 
 app.listen(3000, () => {
     console.log('Server started.');
